@@ -1,0 +1,65 @@
+{
+	"name": "tab-frontend",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev --turbopack",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"prepare": "husky"
+	},
+	"prettier": {
+		"plugins": [
+			"prettier-plugin-tailwindcss"
+		],
+		"singleQuote": true,
+		"jsxSingleQuote": true,
+		"useTabs": true,
+		"tabWidth": 4,
+		"trailingComma": "es5",
+		"semi": true,
+		"endOfLine": "auto",
+		"arrowParens": "always"
+	},
+	"dependencies": {
+		"@heroicons/react": "^2.2.0",
+		"@radix-ui/react-popover": "^1.1.14",
+		"@radix-ui/react-select": "^2.2.5",
+		"@radix-ui/react-slot": "^1.2.3",
+		"class-variance-authority": "^0.7.1",
+		"clsx": "^2.1.1",
+		"date-fns": "^3.6.0",
+		"framer-motion": "^12.4.11",
+		"leaflet": "^1.9.4",
+		"lucide-react": "^0.511.0",
+		"next": "15.2.1",
+		"react": "^18.3.1",
+		"react-day-picker": "8.10.1",
+		"react-dom": "^18.3.1",
+		"react-pdf": "^9.2.1",
+		"save-dev": "^0.0.1-security",
+		"tailwind-merge": "^3.3.0",
+		"tailwindcss-animate": "^1.0.7"
+	},
+	"devDependencies": {
+		"@eslint/eslintrc": "^3",
+		"@next/eslint-plugin-next": "^15.2.2",
+		"@tailwindcss/forms": "^0.5.10",
+		"@types/node": "^20",
+		"@types/react": "^19",
+		"@types/react-dom": "^19",
+		"autoprefixer": "^10.4.20",
+		"eslint": "^9.22.0",
+		"eslint-config-next": "^15.2.2",
+		"eslint-config-prettier": "^10.1.1",
+		"eslint-plugin-next": "^0.0.0",
+		"eslint-plugin-prettier": "^5.2.3",
+		"husky": "^9.1.7",
+		"postcss": "^8.4.47",
+		"prettier": "^3.5.3",
+		"prettier-plugin-tailwindcss": "^0.6.11",
+		"tailwindcss": "^3.4.17",
+		"typescript": "^5"
+	}
+}
