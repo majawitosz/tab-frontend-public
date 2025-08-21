@@ -1,4 +1,4 @@
-# 🍽️ TAB – System Zarządzania Zamówieniami w Restauracji  
+# 🍽️ System Zarządzania Zamówieniami w Restauracji  
 
 Projekt zespołowy zrealizowany w ramach zajęć dotyczących aplikacji bazodanowych.  
 Aplikacja została stworzona w architekturze **dwuwarstwowej (Client–Server)**, łącząc frontend w Next.js z backendem w Django Ninja.  
@@ -74,12 +74,6 @@ project/
 
 ---
 
-## 📸 Zrzuty ekranu
-
-*(Wstaw screeny z aplikacji – panel menu, lista zamówień, raport PDF)*  
-
----
-
 ## 👥 Zespół
 
 - Maja Witosz  
@@ -93,7 +87,7 @@ project/
 ## 🔗 Repozytoria
 
 - [Frontend – GitHub](https://github.com/majawitosz/tab-frontend)  
-- Backend – repozytorium prywatne (Django Ninja + PostgreSQL)  
+- [Backend - Github](https://github.com/majawitosz/tab-backend)
 
 ---
 
@@ -102,5 +96,3 @@ project/
 Projekt pokazuje praktyczne połączenie **Next.js + Django Ninja + PostgreSQL**.  
 Zrealizowane zostały kluczowe funkcje biznesowe: zarządzanie menu, obsługa zamówień i raportowanie.  
 Aplikacja demonstruje wykorzystanie REST API, JWT, raportów PDF oraz metodyki **MoSCoW** do ustalania priorytetów.  
-
-💡 To świetny projekt do CV – łączy frontend, backend, bazę danych i raportowanie w spójną aplikację.  
